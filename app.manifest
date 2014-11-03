@@ -1,0 +1,75 @@
+{
+    "application": {
+        "description": "(BETA) Owncloud Application",
+        "language": "en",
+        "author": "ownCloud Inc.",
+        "url": "http://owncloud.org",
+        "country": "kr",
+        "sdk-version": "0.20.0",
+        "labels": [
+            "owncloud",
+            "NAS",
+            "NFS",
+            "WebDAV",
+            "storage"
+        ],
+        "shares": [],
+        "display": "ownCloud",
+        "priority": "",
+        "version": "6.0.140806",
+        "devices": [
+            "storage",
+            "web"
+        ],
+        "requires": [],
+        "ports": [
+            28081,
+            28083
+        ],
+        "name": "owncloud"
+    },
+    "dependency": {
+        "python": [],
+        "make": [
+            "/lib"
+        ],
+        "system": [
+            "sudo",
+            "openssl",
+            "ssl-cert",
+            "nginx",
+            "sendmail",
+            "sendmail-bin",
+            "php5-cli",
+            "php5-sqlite",
+            "php5-gd",
+            "php5-curl",
+            "php5-common",
+            "php5-cgi",
+            "sqlite",
+            "php-pear",
+            "php-apc",
+            "git-core",
+            "autoconf",
+            "automake",
+            "autotools-dev",
+            "curl",
+            "libapr1",
+            "libtool",
+            "curl",
+            "libcurl4-openssl-dev",
+            "php-xml-parser",
+            "php5",
+            "php5-dev",
+            "php5-gd",
+            "php5-fpm",
+            "memcached",
+            "php5-memcache",
+            "varnish",
+            "bzip2",
+            "sed",
+            "locales",
+            "smbclient"
+        ]
+    }
+}
